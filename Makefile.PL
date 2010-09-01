@@ -10,5 +10,7 @@ WriteMakefile(
     ABSTRACT     => 'easy encryption and decryption using GPG',
     PREREQ_PM    => {
                      'Test::Simple' => 0.44,
+                     'IPC::Run' => 0.84,
+                     'File::Temp' => 0.22,
                     },
 );

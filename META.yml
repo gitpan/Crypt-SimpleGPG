@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Crypt-SimpleGPG
-version:            0.1
+version:            0.2
 abstract:           easy encryption and decryption using GPG
 author:
     - Corey Cossentino ()
@@ -11,6 +11,8 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
+    File::Temp:    0.22
+    IPC::Run:      0.84
     Test::Simple:  0.44
 no_index:
     directory:
