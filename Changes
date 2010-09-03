@@ -6,3 +6,5 @@ Revision history for Perl module Crypt::SimpleGPG
 0.2 Wed Sep 1 2010
     - updated dependencies in makefile
 
+0.3 Fri Sep 3 2010
+    - updated dependencies to require gpg

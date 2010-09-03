@@ -40,7 +40,7 @@ use IPC::Run;
 use File::Temp qw(tempfile);
 use Carp;
 
-our $VERSION = "0.2";
+our $VERSION = "0.3";
 
 my @options = qw( --batch --yes --armor --trust-model always --quiet --no-secmem-warning --no-permission-warning --no-tty --no-greeting );
 

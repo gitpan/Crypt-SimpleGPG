@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Crypt-SimpleGPG
-version:            0.2
+version:            0.3
 abstract:           easy encryption and decryption using GPG
 author:
     - Corey Cossentino ()
